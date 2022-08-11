@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>TicTacToe</title>
+</head>
+
+<body>
+    <div class="topContainer">
+        <select name="difficulty" id="difficulty">
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Difficult">Difficult</option>
+        </select>
+    
+        <div class="share">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+                <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+              </svg>
+        </div>
+    </div>
+
+    <div class="scoreboard">
+        <div class="score section">
+            <img src="cross.png"></img>
+            <div class="score">-</div>
+        </div>
+        <div class="score section">
+            <img src="circle.png"></img>
+            <div class="score">-</div>
+        </div>
+    </div>
+
+    <div class="current">
+        <img src="cross.png"><div>Turn</div>
+    </div>
+        
+    </div>
+    <div class=container-background>
+        <div class="container">
+            <div class="box" id="box-1"><i class="box-text"></i></div>
+            <div class="box" id="box-2"><i class="box-text"></i></div>
+            <div class="box" id="box-3"><i class="box-text"></i></div>
+            <div class="box" id="box-4"><i class="box-text"></i></div>
+            <div class="box" id="box-5"><i class="box-text"></i></div>
+            <div class="box" id="box-6"><i class="box-text"></i></div>
+            <div class="box" id="box-7"><i class="box-text"></i></div>
+            <div class="box" id="box-8"><i class="box-text"></i></div>
+            <div class="box" id="box-9"><i class="box-text"></i></div>
+        </div>   
+    </div>
+
+    <button button="restart-btn">RESTART GAME</button>
+
+</body>
+<script src="WEF004/ex1.js"></script>
+</html>
+
+<!--
+<img src="cross.png">
+<img src="circle.png">
+-->

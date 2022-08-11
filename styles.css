@@ -1,0 +1,146 @@
+body{
+    border: solid;
+    border-color: #F3F4F5;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0px;
+    transform: scale(0.9);
+
+}
+
+
+.topContainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#difficulty{
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+select {
+    color: #847784;
+    border-width: 0px;
+    
+}
+
+.bi-share-fill{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+[fill="currentColor"]{
+    color: #4378F0;
+
+}
+
+.scoreboard{
+    display:flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.score{
+    display: flex;
+    padding: 5px 5px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    height: 5vh;
+    border: solid 1px;
+    border-radius: 20px;
+    border-color: #DADCE0;
+
+}
+
+section:first-child{
+    border-bottom-color: #00C4AF;
+
+}
+
+.scoreboard img{
+    padding: 10px 10px;
+}
+
+img{
+    width: 15px;
+    height: 15px;
+}
+
+
+.current{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9C9E9F;
+
+}
+
+.current div{
+    padding-left: 5px;
+
+}
+
+.container-background{
+    background-color: #00C4AF;
+    padding: 4rem 0;
+}
+.container{
+    background-color: #00A694;
+    display:flex;
+    flex-wrap: wrap;
+    width: clamp(170px, 65vw, 65vh);
+    height: clamp(170px, 65vw, 65vh);
+    justify-content: space-between;
+    align-content: space-between;
+    margin:  0 auto ;
+}
+
+.container div{
+    box-sizing: border-box;
+    width: clamp(50px, 20vw, 20vh);
+    height: clamp(50px, 20vw, 20vh);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color:#00C4AF;
+    border: 5px;
+    /*border-color: #F3F4F5;
+    border-style: solid;*/
+
+    
+    /* display: grid;
+    place-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container img{
+    width: 80%;
+    height: 80%;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    color: #00C4AF;
+    padding: 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin: 0 auto;
+    border: 0px;
+    background-color: white;
+
+}
+
+button:hover{
+    cursor:pointer;
+}
